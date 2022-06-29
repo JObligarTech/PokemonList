@@ -1,0 +1,25 @@
+.layout {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.type {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.heading .attribute {
+    font-weight: bold;
+}
+
+.picture {
+    max-height: 300px;
+}

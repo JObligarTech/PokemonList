@@ -1,0 +1,68 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  padding: 4rem 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+}
+
+.grid img:hover,
+.grid img:focus,
+.grid img:active {
+  border: 3px solid #0070f3;
+  transition: border 0.5s ease
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.grid img {
+  max-height: 400px;
+  border: 2px solid #000000;
+}
